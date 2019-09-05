@@ -1,0 +1,31 @@
+
+.contain{
+    background-color:gray;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+
+.can{
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+#ej2 {
+    margin-left: 42%;
+    
+ }
+ #ej3 {
+    margin-left: 14%;
+    margin-top: 3%;
+ }
+ #ej4 {
+    margin-top: 4%;
+ }
+ #ej5 {
+    margin-top: 4%;
+ }
+ #ej6 {
+    width: 100%;
+}
