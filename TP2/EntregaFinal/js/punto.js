@@ -60,7 +60,6 @@ class Punto {
     }
     if(this.r == 255){
       this.color = 'rgba('+ this.r + ','+(this.g += 40) + ',' + (this.b += 40) + ',' + this.a + ')';
-      console.log(this.color + "bajarRojo");
 
     }
   }
