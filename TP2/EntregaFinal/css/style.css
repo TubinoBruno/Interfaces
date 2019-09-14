@@ -1,8 +1,7 @@
  body {
     background-color: blue;
 }
-canvas {
-    background-color: aquamarine;
-    width:100px ;
-    height:400px;
+canvas , button {
+    background-color: white;
+    margin-left: 405px;
 }
