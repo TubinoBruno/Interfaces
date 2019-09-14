@@ -92,7 +92,7 @@ window.addEventListener("keyup", function(event){
     eventoC = false;
   }
 });
-window.addEventListener("wheel", function(event){
+window.addEventListener("mousewheel", function(event){
   if(eventoC){
     for (var i = 0; i < poligonos.length; i++) {
       const l = poligonos[i];
