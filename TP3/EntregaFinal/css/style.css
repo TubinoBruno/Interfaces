@@ -1,0 +1,1182 @@
+/*ej1*/
+.card-body{
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+body .ej1 .size {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+    -webkit-transition: width   1s ease-out;
+    -moz-transition: width  1s ease-out;
+    -o-transition: width  1s ease-out;
+    transition: width  1s ease-out;
+}
+
+body .ej1 .size:hover{
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+    -webkit-transition: width  1s ease-in;
+    -moz-transition: width  1s ease-in;
+    -o-transition:width  1s ease-in;
+    transition: width 1s ease-in;
+}
+
+body .ej1 .colour {
+    
+    background-color: red;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+-o-transition: background-color 1s ease-out;
+transition: background-color 1s ease-out;
+}
+
+body .ej1 .colour:hover{
+    background-color: blue;
+    -webkit-transition: background-color 1s ease-in;
+    -moz-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in;
+}
+
+body .ej1 .position {
+    background-color: red;
+
+    position: fixed;
+    -webkit-transition: position 1s ease-out;
+    -moz-transition: position 1s ease-out;
+-o-transition: position 1s ease-out;
+transition: position 1s ease-out;
+}
+
+body .ej1 .position:hover{
+    background-color: red;
+
+    position: relative;
+    -webkit-transition: position 1s ease-in;
+    -moz-transition: position 1s ease-in;
+    -o-transition: position 1s ease-in;
+    transition: position 1s ease-in;
+}
+
+body .ej2 #element{
+    margin: 25px;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    
+}
+
+  /*ej2*/
+.translate{
+    transition: 3s;
+    transform: translate(100px);
+}
+  
+.rotate{
+    transition: 2s;
+    transform: rotate(45deg);
+}
+  
+.scale{
+    transition: 3s;
+    transform: scale(3);
+}
+
+/*ej3*/
+#reloj {
+  background: #fff url(cface.png);
+  background-size: 100%;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+  border-radius: 250px;
+}
+
+/* seconds */
+@keyframes secs_effect {
+  0% {
+      opacity: 1;
+  }
+
+  1.66% {
+      opacity: 1;
+  }
+
+  1.67% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+
+#reloj .secs {
+  height: 400px;
+  left: 155px;
+  position: absolute;
+  top: 249px;
+  width: 400px;
+}
+
+#reloj .secs div {
+  background-color: #000000;
+  height: 2px;
+  opacity: 0;
+  position: absolute;
+  width: 190px;
+
+  animation-name: secs_effect;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-delay: 0;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+
+}
+
+#reloj #sec1 {
+  transform: rotate(-90deg) translatex(130px);
+  animation-delay: 0s;
+}
+
+#reloj #sec2 {
+  transform: rotate(-84deg) translatex(130px);
+  animation-delay: 1s;
+
+}
+
+#reloj #sec3 {
+  transform: rotate(-78deg) translatex(130px);
+  animation-delay: 2s;
+
+}
+
+#reloj #sec4 {
+  transform: rotate(-72deg) translatex(130px);
+  animation-delay: 3s;
+
+}
+
+#reloj #sec5 {
+  transform: rotate(-66deg) translatex(130px);
+  animation-delay: 4s;
+
+}
+
+#reloj #sec6 {
+  transform: rotate(-60deg) translatex(130px);
+  animation-delay: 5s;
+
+}
+
+#reloj #sec7 {
+  transform: rotate(-54deg) translatex(130px);
+  animation-delay: 6s;
+
+}
+
+#reloj #sec8 {
+  transform: rotate(-48deg) translatex(130px);
+  animation-delay: 7s;
+
+}
+
+#reloj #sec9 {
+  transform: rotate(-42deg) translatex(130px);
+  animation-delay: 8s;
+
+}
+
+#reloj #sec10 {
+  transform: rotate(-36deg) translatex(130px);
+  animation-delay: 9s;
+
+}
+
+#reloj #sec11 {
+  transform: rotate(-30deg) translatex(130px);
+  animation-delay: 10s;
+
+}
+
+#reloj #sec12 {
+  transform: rotate(-24deg) translatex(130px);
+  animation-delay: 11s;
+
+}
+
+#reloj #sec13 {
+  transform: rotate(-18deg) translatex(130px);
+  animation-delay: 12s;
+
+}
+
+#reloj #sec14 {
+  transform: rotate(-12deg) translatex(130px);
+  animation-delay: 13s;
+
+}
+
+#reloj #sec15 {
+  transform: rotate(-6deg) translatex(130px);
+  animation-delay: 14s;
+
+}
+
+#reloj #sec16 {
+  transform: rotate(0deg) translatex(130px);
+  animation-delay: 15s;
+
+}
+
+#reloj #sec17 {
+  transform: rotate(6deg) translatex(130px);
+  animation-delay: 16s;
+
+}
+
+#reloj #sec18 {
+  transform: rotate(12deg) translatex(130px);
+  animation-delay: 17s;
+
+}
+
+#reloj #sec19 {
+  transform: rotate(18deg) translatex(130px);
+  animation-delay: 18s;
+
+}
+
+#reloj #sec20 {
+  transform: rotate(24deg) translatex(130px);
+  animation-delay: 19s;
+
+}
+
+#reloj #sec21 {
+  transform: rotate(30deg) translatex(130px);
+  animation-delay: 20s;
+
+}
+
+#reloj #sec22 {
+  transform: rotate(36deg) translatex(130px);
+  animation-delay: 21s;
+
+}
+
+#reloj #sec23 {
+  transform: rotate(42deg) translatex(130px);
+  animation-delay: 22s;
+
+}
+
+#reloj #sec24 {
+  transform: rotate(48deg) translatex(130px);
+  animation-delay: 23s;
+
+}
+
+#reloj #sec25 {
+  transform: rotate(54deg) translatex(130px);
+  animation-delay: 24s;
+
+}
+
+#reloj #sec26 {
+  transform: rotate(60deg) translatex(130px);
+  animation-delay: 25s;
+
+}
+
+#reloj #sec27 {
+  transform: rotate(66deg) translatex(130px);
+  animation-delay: 26s;
+
+}
+
+#reloj #sec28 {
+  transform: rotate(72deg) translatex(130px);
+  animation-delay: 27s;
+
+}
+
+#reloj #sec29 {
+  transform: rotate(78deg) translatex(130px);
+  animation-delay: 28s;
+
+}
+
+#reloj #sec30 {
+  transform: rotate(84deg) translatex(130px);
+  animation-delay: 29s;
+
+}
+
+#reloj #sec31 {
+  transform: rotate(90deg) translatex(130px);
+  animation-delay: 30s;
+
+}
+
+#reloj #sec32 {
+  transform: rotate(96deg) translatex(130px);
+  animation-delay: 31s;
+
+}
+
+#reloj #sec33 {
+  transform: rotate(102deg) translatex(130px);
+  animation-delay: 32s;
+
+}
+
+#reloj #sec34 {
+  transform: rotate(108deg) translatex(130px);
+  animation-delay: 33s;
+
+}
+
+#reloj #sec35 {
+  transform: rotate(114deg) translatex(130px);
+  animation-delay: 34s;
+
+}
+
+#reloj #sec36 {
+  transform: rotate(120deg) translatex(130px);
+  animation-delay: 35s;
+
+}
+
+#reloj #sec37 {
+  transform: rotate(126deg) translatex(130px);
+  animation-delay: 36s;
+
+}
+
+#reloj #sec38 {
+  transform: rotate(132deg) translatex(130px);
+  animation-delay: 37s;
+
+}
+
+#reloj #sec39 {
+  transform: rotate(138deg) translatex(130px);
+  animation-delay: 38s;
+
+}
+
+#reloj #sec40 {
+  transform: rotate(144deg) translatex(130px);
+  animation-delay: 39s;
+
+}
+
+#reloj #sec41 {
+  transform: rotate(150deg) translatex(130px);
+  animation-delay: 40s;
+
+}
+
+#reloj #sec42 {
+  transform: rotate(156deg) translatex(130px);
+  animation-delay: 41s;
+
+}
+
+#reloj #sec43 {
+  transform: rotate(162deg) translatex(130px);
+  animation-delay: 42s;
+
+}
+
+#reloj #sec44 {
+  transform: rotate(168deg) translatex(130px);
+  animation-delay: 43s;
+
+}
+
+#reloj #sec45 {
+  transform: rotate(174deg) translatex(130px);
+  animation-delay: 44s;
+
+}
+
+#reloj #sec46 {
+  transform: rotate(180deg) translatex(130px);
+  animation-delay: 45s;
+
+}
+
+#reloj #sec47 {
+  transform: rotate(186deg) translatex(130px);
+  animation-delay: 46s;
+
+}
+
+#reloj #sec48 {
+  transform: rotate(192deg) translatex(130px);
+  animation-delay: 47s;
+
+}
+
+#reloj #sec49 {
+  transform: rotate(198deg) translatex(130px);
+  animation-delay: 48s;
+
+}
+
+#reloj #sec50 {
+  transform: rotate(204deg) translatex(130px);
+  animation-delay: 49s;
+
+}
+
+#reloj #sec51 {
+  transform: rotate(210deg) translatex(130px);
+  animation-delay: 50s;
+
+}
+
+#reloj #sec52 {
+  transform: rotate(216deg) translatex(130px);
+  animation-delay: 51s;
+
+}
+
+#reloj #sec53 {
+  transform: rotate(222deg) translatex(130px);
+  animation-delay: 52s;
+
+}
+
+#reloj #sec54 {
+  transform: rotate(228deg) translatex(130px);
+  animation-delay: 53s;
+
+}
+
+#reloj #sec55 {
+  transform: rotate(234deg) translatex(130px);
+  animation-delay: 54s;
+
+}
+
+#reloj #sec56 {
+  transform: rotate(240deg) translatex(130px);
+  animation-delay: 55s;
+
+}
+
+#reloj #sec57 {
+  transform: rotate(246deg) translatex(130px);
+  animation-delay: 56s;
+
+}
+
+#reloj #sec58 {
+  transform: rotate(252deg) translatex(130px);
+  animation-delay: 57s;
+
+}
+
+#reloj #sec59 {
+  transform: rotate(258deg) translatex(130px);
+  animation-delay: 58s;
+
+}
+
+#reloj #sec60 {
+  transform: rotate(264deg) translatex(130px);
+  animation-delay: 59s;
+}
+
+/* minutes */
+@keyframes mins_effect {
+  0% {
+      opacity: 1;
+  }
+
+  1.66% {
+      opacity: 1;
+  }
+
+  1.67% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+
+#reloj .mins {
+  height: 300px;
+  left: 175px;
+  position: absolute;
+  top: 249px;
+  width: 300px;
+}
+
+#reloj .mins div {
+  background-color: #000000;
+  height: 3px;
+  opacity: 0;
+  position: absolute;
+  width: 150px;
+  animation-name: mins_effect;
+  animation-duration: 3600s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-delay: 0;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+#reloj #min1 {
+  transform: rotate(-90deg) translatex(110px);
+  animation-delay: 0s;
+}
+
+#reloj #min2 {
+  transform: rotate(-84deg) translatex(110px);
+  animation-delay: 60s;
+
+}
+
+#reloj #min3 {
+  transform: rotate(-78deg) translatex(110px);
+  animation-delay: 120s;
+
+}
+
+#reloj #min4 {
+  transform: rotate(-72deg) translatex(110px);
+  animation-delay: 180s;
+
+}
+
+#reloj #min5 {
+  transform: rotate(-66deg) translatex(110px);
+  animation-delay: 240s;
+
+}
+
+#reloj #min6 {
+  transform: rotate(-60deg) translatex(110px);
+  animation-delay: 300s;
+
+}
+
+#reloj #min7 {
+  transform: rotate(-54deg) translatex(110px);
+  animation-delay: 360s;
+
+}
+
+#reloj #min8 {
+  transform: rotate(-48deg) translatex(110px);
+  animation-delay: 420s;
+}
+
+#reloj #min9 {
+  transform: rotate(-42deg) translatex(110px);
+  animation-delay: 480s;
+
+}
+
+#reloj #min10 {
+  transform: rotate(-36deg) translatex(110px);
+  animation-delay: 540s;
+
+}
+
+#reloj #min11 {
+  transform: rotate(-30deg) translatex(110px);
+  animation-delay: 600s;
+
+}
+
+#reloj #min12 {
+  transform: rotate(-24deg) translatex(110px);
+  animation-delay: 660s;
+
+}
+
+#reloj #min13 {
+  transform: rotate(-18deg) translatex(110px);
+  animation-delay: 720s;
+
+}
+
+#reloj #min14 {
+  transform: rotate(-12deg) translatex(110px);
+  animation-delay: 780s;
+
+}
+
+#reloj #min15 {
+  transform: rotate(-6deg) translatex(110px);
+  animation-delay: 840s;
+
+}
+
+#reloj #min16 {
+  transform: rotate(0deg) translatex(110px);
+  animation-delay: 900s;
+
+}
+
+#reloj #min17 {
+  transform: rotate(6deg) translatex(110px);
+  animation-delay: 960s;
+
+}
+
+#reloj #min18 {
+  transform: rotate(12deg) translatex(110px);
+  animation-delay: 1020s;
+
+}
+
+#reloj #min19 {
+  transform: rotate(18deg) translatex(110px);
+  animation-delay: 1080s;
+
+}
+
+#reloj #min20 {
+  transform: rotate(24deg) translatex(110px);
+  animation-delay: 1140s;
+
+}
+
+#reloj #min21 {
+  transform: rotate(30deg) translatex(110px);
+  animation-delay: 1200s;
+
+}
+
+#reloj #min22 {
+  transform: rotate(36deg) translatex(110px);
+  animation-delay: 1260s;
+
+}
+
+#reloj #min23 {
+  transform: rotate(42deg) translatex(110px);
+  animation-delay: 1320s;
+
+}
+
+#reloj #min24 {
+  transform: rotate(48deg) translatex(110px);
+  animation-delay: 1380s;
+
+}
+
+#reloj #min25 {
+  transform: rotate(54deg) translatex(110px);
+  animation-delay: 1440s;
+
+}
+
+#reloj #min26 {
+  transform: rotate(60deg) translatex(110px);
+  animation-delay: 1500s;
+
+}
+
+#reloj #min27 {
+  transform: rotate(66deg) translatex(110px);
+  animation-delay: 1560s;
+
+}
+
+#reloj #min28 {
+  transform: rotate(72deg) translatex(110px);
+  animation-delay: 1620s;
+
+}
+
+#reloj #min29 {
+  transform: rotate(78deg) translatex(110px);
+  animation-delay: 1680s;
+
+}
+
+#reloj #min30 {
+  transform: rotate(84deg) translatex(110px);
+  animation-delay: 1740s;
+
+}
+
+#reloj #min31 {
+  transform: rotate(90deg) translatex(110px);
+  animation-delay: 1800s;
+
+}
+
+#reloj #min32 {
+  transform: rotate(96deg) translatex(110px);
+  animation-delay: 1860s;
+
+}
+
+#reloj #min33 {
+  transform: rotate(102deg) translatex(110px);
+  animation-delay: 1920s;
+
+}
+
+#reloj #min34 {
+  transform: rotate(108deg) translatex(110px);
+  animation-delay: 1980s;
+
+}
+
+#reloj #min35 {
+  transform: rotate(114deg) translatex(110px);
+  animation-delay: 2040s;
+
+}
+
+#reloj #min36 {
+  transform: rotate(120deg) translatex(110px);
+  animation-delay: 2100s;
+
+}
+
+#reloj #min37 {
+  transform: rotate(126deg) translatex(110px);
+  animation-delay: 2160s;
+
+}
+
+#reloj #min38 {
+  transform: rotate(132deg) translatex(110px);
+  animation-delay: 2220s;
+
+}
+
+#reloj #min39 {
+  transform: rotate(138deg) translatex(110px);
+  animation-delay: 2280s;
+
+}
+
+#reloj #min40 {
+  transform: rotate(144deg) translatex(110px);
+  animation-delay: 2340s;
+
+}
+
+#reloj #min41 {
+  transform: rotate(150deg) translatex(110px);
+  animation-delay: 2400s;
+
+}
+
+#reloj #min42 {
+  transform: rotate(156deg) translatex(110px);
+  animation-delay: 2460s;
+
+}
+
+#reloj #min43 {
+  transform: rotate(162deg) translatex(110px);
+  animation-delay: 2520s;
+
+}
+
+#reloj #min44 {
+  transform: rotate(168deg) translatex(110px);
+  animation-delay: 2580s;
+
+}
+
+#reloj #min45 {
+  transform: rotate(174deg) translatex(110px);
+  animation-delay: 2640s;
+
+}
+
+#reloj #min46 {
+  transform: rotate(180deg) translatex(110px);
+  animation-delay: 2700s;
+
+}
+
+#reloj #min47 {
+  transform: rotate(186deg) translatex(110px);
+  animation-delay: 2760s;
+
+}
+
+#reloj #min48 {
+  transform: rotate(192deg) translatex(110px);
+  animation-delay: 2820s;
+
+}
+
+#reloj #min49 {
+  transform: rotate(198deg) translatex(110px);
+  animation-delay: 2880s;
+
+}
+
+#reloj #min50 {
+  transform: rotate(204deg) translatex(110px);
+  animation-delay: 2940s;
+
+}
+
+#reloj #min51 {
+  transform: rotate(210deg) translatex(110px);
+  animation-delay: 3000s;
+
+}
+
+#reloj #min52 {
+  transform: rotate(216deg) translatex(110px);
+  animation-delay: 3060s;
+
+}
+
+#reloj #min53 {
+  transform: rotate(222deg) translatex(110px);
+  animation-delay: 3120s;
+
+}
+
+#reloj #min54 {
+  transform: rotate(228deg) translatex(110px);
+  animation-delay: 3180s;
+
+}
+
+#reloj #min55 {
+  transform: rotate(234deg) translatex(110px);
+  animation-delay: 3240s;
+
+}
+
+#reloj #min56 {
+  transform: rotate(240deg) translatex(110px);
+  animation-delay: 3300s;
+
+}
+
+#reloj #min57 {
+  transform: rotate(246deg) translatex(110px);
+  animation-delay: 3360s;
+
+}
+
+#reloj #min58 {
+  transform: rotate(252deg) translatex(110px);
+  animation-delay: 3420s;
+
+}
+
+#reloj #min59 {
+  transform: rotate(258deg) translatex(110px);
+  animation-delay: 3480s;
+
+}
+
+#reloj #min60 {
+  transform: rotate(264deg) translatex(110px);
+  animation-delay: 3540s;
+
+}
+
+/* hours */
+@keyframes hours_effect {
+  0% {
+      opacity: 1;
+  }
+
+  8.33% {
+      opacity: 1;
+  }
+
+  8.34% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+
+#reloj .hours {
+  height: 300px;
+  left: 175px;
+  position: absolute;
+  top: 249px;
+  width: 300px;
+}
+
+#reloj .hours div {
+  background-color: #000000;
+  height: 3px;
+  opacity: 0;
+  position: absolute;
+  width: 150px;
+  animation-name: hours_effect;
+  animation-duration: 43200s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-delay: 0;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+#reloj #hour1 {
+  transform: rotate(-180deg) translatex(110px);
+  animation-delay: 0s;
+
+}
+
+#reloj #hour2 {
+  transform: rotate(-150deg) translatex(110px);
+  animation-delay: 3600s;
+
+}
+
+#reloj #hour3 {
+  transform: rotate(-120deg) translatex(110px);
+  animation-delay: 7200s;
+
+}
+
+#reloj #hour4 {
+  transform: rotate(-90deg) translatex(110px);
+  animation-delay: 10800s;
+
+}
+
+#reloj #hour5 {
+  transform: rotate(-60deg) translatex(110px);
+  animation-delay: 14400s;
+
+}
+
+#reloj #hour6 {
+  transform: rotate(-30deg) translatex(110px);
+  animation-delay: 18000s;
+
+}
+
+#reloj #hour7 {
+  transform: rotate(0deg) translatex(110px);
+  animation-delay: 21600s;
+
+}
+
+#reloj #hour8 {
+  transform: rotate(30deg) translatex(110px);
+  animation-delay: 25200s;
+
+}
+
+#reloj #hour9 {
+  transform: rotate(60deg) translatex(110px);
+  animation-delay: 28800s;
+
+}
+
+#reloj #hour10 {
+  transform: rotate(90deg) translatex(110px);
+  animation-delay: 32400s;
+
+}
+
+#reloj #hour11 {
+  transform: rotate(120deg) translatex(110px);
+  animation-delay: 36000s;
+
+}
+
+#reloj #hour12 {
+  transform: rotate(150deg) translatex(110px);
+  animation-delay: 39600s;
+
+}
+
+/*ej entregable*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#knight {
+    position: relative;
+    top: 340px;
+    left: 50px;
+    width: 100px;
+    height: 125px;
+}
+
+
+.knight-run {
+    background: url('../images/knightRun.png') no-repeat;
+    animation: runSprites 0.8s steps(10) infinite;
+}
+
+.knight-jump {
+    background: url('../images/knightJumpv2.png') no-repeat;
+    animation: jumpSprites 1s steps(10), jump linear 1s;
+}
+
+.knight-attack {
+    background: url('../images/knightAttackv6.png') no-repeat;
+    animation: attackSprites 0.5s steps(10) ;
+}
+
+.knight-death {
+    background: url('../images/knightDeathV3.png') no-repeat ;
+    width: 150px;
+    height: 125px;
+    position: relative;
+    top: 340px;
+    left: -20px;
+    animation: knightDeath 1s steps(10) forwards;
+  
+}
+.knight-death-air {
+    background: url('../images/knightDeathV3.png') no-repeat ;
+    width: 150px;
+    height: 125px;
+    position: relative;
+    top: 240px;
+    left: -20px;
+    animation: knightDeathAir 1s steps(10) forwards;
+  
+}
+
+
+@keyframes knightDeath {
+    100% {
+        background-position: -1500px;
+    }
+}
+
+@keyframes knightDeathAir{
+    100% {
+        background-position: -1500px;
+        transform: translate(0px, 120px);
+    }
+}
+
+.zombie {
+    position: absolute;
+    top: 335px;
+    left: 1000px;
+    width: 100px;
+    height: 125px;
+}
+
+.zombie-walk {
+    background: url('../images/zombieWalkv2.png') no-repeat;
+    animation: runSprites 0.8s steps(10) infinite, walkToLeft linear 5s;
+}
+
+.zombie-death {
+    width: 150px;
+    background: url('../images/zombieDeathv2.png') no-repeat;
+    animation: zombieDeath 1s steps(12);
+}
+
+
+
+@keyframes zombieDeath {
+    0%{
+        left: 50px;
+    }
+    100% {
+        left: -50px;
+        background-position: -1800px;
+    }
+}
+
+
+@keyframes runSprites {
+    100% {
+        background-position: -1000px;
+    }
+}
+
+@keyframes jumpSprites {
+    100% {
+        background-position: -1000px;
+    }
+}
+
+@keyframes attackSprites {
+    100% {
+        background-position: -1000px;
+    }
+}
+
+@keyframes landscapeMove {
+    100% {
+        background-position: -1000px;
+    }
+}
+
+
+@keyframes jump {
+    17%{transform: translate(0px, -110px);}
+    25%{transform: translate(0px, -160px);}
+    50%{transform: translate(0px, -200px);}
+    75%{transform: translate(0px, -160px);}
+    82%{transform: translate(0px, -110px);}
+    100%{transform: translate(0px, 0px);}
+}
+
+@keyframes walkToLeft {
+    100% {
+        transform: translate(-1100px, 0px)
+    }
+}
+
+
+.screen {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    background: url('../images/landscapeBv1.jpg') no-repeat;
+
+    margin: 0 auto;
+}
+
+.screen-animation {
+    animation: landscapeMove 15s infinite linear;
+}
+
+
+.disapear {
+    position: absolute;
+    z-index: 2;
+    width: 103px;
+    height: 200px;
+    background: white;
+    top: 340px;
+    left: 47px;
+}
